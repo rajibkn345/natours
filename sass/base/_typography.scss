@@ -45,7 +45,16 @@ body {
         }
     }
 }
-
+.footer-logo{
+    font-size: 3rem;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .2s;
+}
 .heading-secondary {
     font-size: 3.5rem;
     text-transform: uppercase;
